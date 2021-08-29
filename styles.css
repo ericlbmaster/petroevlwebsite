@@ -208,3 +208,12 @@ h2,p{
 .footer-container ul li{
     line-height: 2.0;
 }
+
+.footer{
+    background: #2f3640;
+    /* color: #888; */
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
