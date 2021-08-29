@@ -158,3 +158,29 @@ h2,p{
     padding: 90px 0 0 30px;
     color: white;
 }
+
+/* Social */
+.social {
+    margin: 50px;
+}
+
+.social p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #888;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a{
+    margin: 0 30px;
+}
+
+.links a i{
+    font-size: 3rem;
+}
