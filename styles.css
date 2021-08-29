@@ -82,6 +82,7 @@ h2,p{
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    margin-bottom: 20px;
 }
 
 .btn{
@@ -104,4 +105,25 @@ h2,p{
 .showcase h2, .showcase p{
     margin-bottom: 10px;
 
+}
+
+/* Cards */
+.news-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 10px 0;
+}
+
+.news-cards img{
+    /* width: 100%; */
+    height: 180px;
+}
+
+.news-cards h3,.news-cards p{
+    color: #888;
+}
+
+.news-cards a:hover{
+    text-decoration: underline;
 }
